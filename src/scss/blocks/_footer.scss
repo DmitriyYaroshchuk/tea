@@ -1,0 +1,133 @@
+.footer {
+  padding: 100px 0 20px;
+  background-color: #F7F2EA;
+}
+
+.footer__inner {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 40px;
+}
+
+.footer__products-title,
+.footer__company-title,
+.footer__contacts-title {
+  font-family: Cormorant, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: 50px;
+}
+
+.footer__products-item,
+.footer__company-item {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer__blockquote {
+  margin-top: 80px;
+}
+
+.footer__blockquote-text {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer__blockquote-author {
+  font-size: 12px;
+  font-style: normal;
+}
+
+.footer__blockquote-author span {
+  display: block;
+}
+
+.footer__contacts-text {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.footer__nav-logo {
+  margin-right: 40px;
+}
+
+.footer__logo {
+  display: inline-block;
+}
+
+.footer__nav-contacts {
+  margin-top: 20px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+}
+
+.footer__nav-phone,
+.footer__nav-email {
+  display: block;
+  font-size: 13px;
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 20px;
+}
+
+.footer__nav-email {
+  margin-bottom: 0;
+}
+
+.footer__nav-phone:before,
+.footer__nav-email:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 16px;
+  background-image: url("../../images/mail.svg");
+}
+
+.footer__nav-phone:before {
+  background-image: url("../../images/phone.svg");
+  width: 21px;
+  height: 21px;
+  top: 2px;
+}
+
+.footer__social {
+  margin-top: 40px;
+}
+
+.footer__social-list {
+  margin-left: 97px;
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.footer__social-link,
+.partners-logo__item img {
+  display: grid;
+}
+
+.footer__bottom {
+  display: flex;
+}
+
+.footer__copy {
+  font-size: 16px;
+  margin-right: 192px;
+}
+
+.partners-logo {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
